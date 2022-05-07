@@ -19,28 +19,28 @@
     font-size: 1em;
     text-align: center;
 
-    font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0 35px;
-    
+
 }
 
 
 .navbar-nav a:after {
-content: '';
-position: absolute;
-width: 100%;
-transform: scaleX(0);
-height: 2px;
-bottom: 0;
-left: 0;
-background-color: black;
-transform-origin: bottom right;
-transition: transform 0.6s ease-out;
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.6s ease-out;
 }
 
 .navbar-nav a:hover:after {
-transform: scaleX(1);
-transform-origin: bottom left;
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 
@@ -313,6 +313,51 @@ header h2 {
     color: rgb(76, 71, 71);
 }
 
+/* estilos del footer */
+.footer-copy{
+    background-color: rgba(250, 232, 240, 0.993);
+}
+.icono-back_to_top {
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+
+    border: solid 1px rgb(76, 71, 71);
+    width: 32px;
+    height: 32px;
+
+}
+
+#back_to_top {
+
+    text-decoration: none;
+    text-align: center;
+
+    color: rgb(76, 71, 71);
+    font-size: 20px;
+    margin: 5px;
+}
+
+.copyright {
+    font-size: 6px;
+    text-align: center;
+    color: rgb(76, 71, 71);
+}
+
+.footer-social {
+    text-decoration: none;
+    text-align: center;
+}
+
+.footer-social a {
+    color: rgb(76, 71, 71);
+    ;
+}
+
+/* .copyright i { */
+/* font-size: 10px; */
+/* text-align: center; */
+/* } */
 
 /*estilo del html sobremi */
 .titulo-sobremi {
@@ -883,6 +928,11 @@ header h2 {
         font-size: 1.5em;
 
     }
+    .copyright {
+        font-size: 11px;
+        
+        
+    }
 
 
     /* tablet sobremi */
@@ -1047,9 +1097,9 @@ header h2 {
 
     .navbar {
         background-color: rgb(236, 213, 225);
-        
+
     }
-    
+
 
     header h2 {
         font-size: 2.5em;
@@ -1172,10 +1222,41 @@ header h2 {
         font-size: 1.8em;
     }
 
+    .footer-copy{
+       display: grid;
+       grid-template-areas: 
+       "copy social buttom";
+       grid-template-columns: 3fr .5fr .5fr;
+       
+    }
+    .icono-back_to_top {
+        grid-area: buttom;
+        margin: 0;
+        margin-left: 12px;
+        font-size: 12px;
+    }
+    
+                                      
+    .copyright {
+        grid-area: copy;
 
+        font-size: 12px;
+       
+    }
     
+    .footer-social {
+        grid-area: social;
+
+        text-align: right; 
+    }
     
-    
+    .footer-social a {
+        
+        font-size: 15px ;
+    }
+
+
+
 
     /*estilo del html sobremi */
     .titulo-sobremi {
