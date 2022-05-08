@@ -737,7 +737,8 @@ header h2 {
 }
 
 .seccion3-capacitaciones table {
-    margin-left: 25px;
+    margin-left: 10px;
+    margin-right: 5PX;
 
     font-size: 1em;
 
