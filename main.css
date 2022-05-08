@@ -355,10 +355,6 @@ header h2 {
     ;
 }
 
-/* .copyright i { */
-/* font-size: 10px; */
-/* text-align: center; */
-/* } */
 
 /*estilo del html sobremi */
 .titulo-sobremi {
@@ -408,9 +404,6 @@ header h2 {
         "textoh3 textoh3 ";
     grid-template-columns: 40% 60%;
 
-
-
-
 }
 
 .img-sobremi {
@@ -421,9 +414,9 @@ header h2 {
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgb(136, 136, 136);
 
-    margin: 10px;
+    margin: auto;
     height: 100px;
-    
+
 }
 
 .h2-sobremi {
@@ -861,7 +854,7 @@ header h2 {
 }
 
 .formulario-contacto {
-   margin-left: 50px;
+    margin-left: 50px;
     width: 60%;
 }
 
@@ -949,6 +942,12 @@ header h2 {
 
         width: 768px;
         height: 440px;
+    }
+
+    .img-sobremi {
+       
+        height: max-content;
+
     }
 
     .h2-sobremi {
@@ -1295,7 +1294,8 @@ header h2 {
         grid-area: img;
 
         width: 100%;
-        margin-top: 70px;
+        height: max-content;
+       
     }
 
     .h2-sobremi {
