@@ -73,26 +73,30 @@
             <section class="seccion3-contacto">
                 <div>
                     <h3>
-                        Formulario
+                       Realiza tu consulta
                     </h3>
                     <h4>
                         Rellena el formulario con tus datos y te responderé a la brevedad.
                     </h4>
                 </div>
                 <div class="formulario-contacto">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+                      </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" >
+                      </div>
                     <div>
-                        <label for="">Nombre</label>
-                        <input type="text">
-                        <label for="">Email</label>
-                        <input type="text">
-                    </div>
-                    <div>
-                        <label for="">Asunto</label>
-                        <input type="text">
-                    </div>
-                    <div>
-                        <form action="">Mensaje:</form>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                          <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Comentarios</label>
+                          </div>
                     </div>
                     <form action="">
                         <input class="input-enviar" type="submit" value="Enviar Formulario">
